@@ -1,0 +1,14 @@
+
+
+NET "data[0]" LOC = D5;
+NET "data[1]" LOC = C5;
+NET "data[2]" LOC = E7;
+NET "data[3]" LOC = B6;
+NET "data[4]" LOC = A6;
+NET "data[5]" LOC = A4;
+NET "data[6]" LOC = B4;
+NET "clk" LOC = C9;
+
+# PlanAhead Generated physical constraints 
+
+NET "res" LOC = L13;

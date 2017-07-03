@@ -1,0 +1,44 @@
+
+
+NET "LCD_E" LOC = M18;
+NET "LCD_RS" LOC = L18;
+NET "LCD_RW" LOC = L17;
+NET "SF_D[8]" LOC = R15;
+NET "SF_D[9]" LOC = R16;
+NET "SF_D[10]" LOC = P17;
+NET "SF_D[11]" LOC = M15;
+
+NET "clk" LOC = C9;
+NET "reset" LOC = N17;
+NET "rst" LOC = L13;
+NET "set" LOC = H18;
+
+
+
+# PlanAhead Generated physical constraints 
+
+NET "you" LOC = D18;
+NET "zuo" LOC = K17;
+# PlanAhead Generated physical constraints 
+
+NET "a" LOC = K18;
+NET "b" LOC = G18;
+NET "push" LOC = V16;
+
+# PlanAhead Generated physical constraints 
+
+NET "a" PULLUP;
+NET "b" PULLUP;
+NET "push" PULLDOWN;
+
+# PlanAhead Generated physical constraints 
+
+NET "led8[0]" LOC = F12;
+NET "led8[1]" LOC = E12;
+NET "led8[2]" LOC = E11;
+NET "led8[3]" LOC = F11;
+NET "led8[4]" LOC = C11;
+NET "led8[5]" LOC = D11;
+NET "led8[6]" LOC = E9;
+NET "led8[7]" LOC = F9;
+

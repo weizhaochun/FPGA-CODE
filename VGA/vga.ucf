@@ -1,0 +1,10 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "vga_b" LOC = G15;
+NET "vga_g" LOC = H15;
+NET "hsync" LOC = F15;
+NET "vga_r" LOC = H14;
+NET "vsync" LOC = F14;
+NET "clk" LOC = C9;
+NET "rst_n" LOC = L13;

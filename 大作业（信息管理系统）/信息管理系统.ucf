@@ -1,0 +1,74 @@
+
+
+#NET "bus4<0>" LOC = "F12" | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 4;
+#NET "bus4<1>" LOC = "E12" | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 4;
+#NET "bus4<2>" LOC = "E11" | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 4;
+#NET "bus4<3>" LOC = "F11" | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 4;
+#NET "bus4<4>" LOC = "C11" | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 4;
+#NET "bus4<5>" LOC = "D11" | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 4;
+#NET "bus4<6>" LOC = "E9"  | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 4;
+
+
+#NET "bus4<0>" LOC = "B4" ;
+#NET "bus4<1>" LOC = "D5" ;
+#NET "bus4<2>" LOC = "A6" ;
+#NET "bus4<3>" LOC = "E7" ;
+#NET "bus4<4>" LOC = "D7" ;
+#NET "bus4<5>" LOC = "F8";
+#NET "bus4<6>" LOC = "F9" ;
+#
+#NET "shift<0>" LOC = "A4";
+#NET "shift<1>" LOC = "C5";
+#NET "shift<2>" LOC = "B6"; 
+#NET "shift<3>" LOC = "F7";
+
+#
+#NET "bus4<0>" LOC = "D7" ;
+#NET "bus4<1>" LOC = "C7" ;
+#NET "bus4<2>" LOC = "F8" ;
+#NET "bus4<3>" LOC = "E8" ;
+#NET "bus4<4>" LOC = "B4" ;
+#NET "bus4<5>" LOC = "A4";
+#NET "bus4<6>" LOC = "D5" ;
+#
+#NET "shift<0>" LOC = "A6";
+#NET "shift<1>" LOC = "B6";
+#NET "shift<2>" LOC = "E7"; 
+#NET "shift<3>" LOC = "F7";
+	 
+
+
+NET "LCD_E" LOC = M18;
+NET "LCD_RS" LOC = L18;
+NET "reset" LOC = N17;
+
+NET "LCD_RW" LOC = L17;
+NET "SF_D[11]" LOC = M15;
+NET "SF_D[10]" LOC = P17;
+NET "SF_D[9]" LOC = R16;
+NET "SF_D[8]" LOC = R15;
+
+
+NET "clk" LOC = C9;
+
+NET "rst2" LOC = H18;
+
+
+
+
+NET "a" LOC = K18;
+NET "b" LOC = G18;
+
+
+NET "a" PULLUP;
+NET "b" PULLUP;
+
+
+NET "push" LOC = V16;
+
+
+NET "push" PULLDOWN;
+
+# PlanAhead Generated physical constraints 
+
+NET "st1" LOC = L13;
